@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+/* About Me - header -*/
+.about-me {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* background image */
+.pic {
+    position: absolute;
+    left: 25%;
+}
+
+/* about me full content */
+#about-info {
+    position: absolute;
+    right: 52%;
+    top: 5%;
+    translate: 50% 50%;
+    width: 100%;
+}
+
+/* profile picture  1st column*/
+#about-me-pic img{
+    box-shadow: -30px 20px 30px #15273f;
+    border-radius: 20px;
+}
+
+/* personal information section
+        2nd column */
+#personal-me {
+    position: absolute;
+    top: 15%;
+    left: 58rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* color: eab676; */
+}
+
+/* personal info-title */
+.personal-info {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+/* personal-info-details */
+p {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    text-shadow: 3px 3px #15273f;
+}
+
+/* about-me 3rd column */
+.info {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    color:black;
+    text-decoration: none;
+    text-shadow: none;
+    width: 38rem;
+    height: 28rem;
+    padding: 1rem;
+    font-size: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    box-shadow: -20px 15px 20px #15273f;
+    border-radius: 1rem;
+}
