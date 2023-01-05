@@ -47,7 +47,7 @@ h3 {
 /* ================================================================================ */
 .main-section {
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0)0%), 
-    url('/bg-9.jpg');
+    url('bg-9.jpg');
     background-size: cover;
 
 }
